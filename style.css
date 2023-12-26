@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+@media (min-device-width: 1000px) 
+{
+
+    
+
+    body{
+        background-color: #f5f5f5;
+        font-family: Bahnschrift condensed;
+        color: white;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        /* https://www.svgbackgrounds.com/ */
+    }
+    
+    #header{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 4vw;
+        margin-top:0;
+        position: fixed;
+        border-bottom: rgb(240, 238, 238) 1px solid;
+        clear:both;
+        z-index: 101;
+          
+    }
+
+
+
+    #logo{
+        margin-right: 20%;
+        margin-top: -0.5vw;
+        margin-left: 2%;
+    }
+    #logo img{
+        height: 3vw;
+
+    }
+
+
+    .menu{
+        width:100%;
+        height:10%;
+        padding-left: 0px;
+    }
+    
+    .menu, ul li {
+        position: static;
+        list-style: none;
+        margin-left: 7%;
+        margin-top: 0.1%;
+        color: rgb(118, 117, 117);
+        font-family: Bahnschrift condensed;
+        font-size: 1.2vw;
+        
+        
+    }
+    
+    .menu li {
+        float: left;  
+    }
+
+    .menu li:hover{
+        color: black;
+        
+    }
+    
+    #article{
+        width: 100%;
+        height: 30%;
+        float: left;
+        margin-top: 7vw;
+        text-align: left;
+        font-size: 2vw;
+        padding: 0%;
+        color: #1f1f1f;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 100; 
+    }
+
+    #container1 {
+        max-width: 100%;
+        margin: 0 auto;
+        height: 30vw;
+        align-items: center;
+        color:black;
+        background-color: rgb(13, 13, 13);
+        padding-top: 3vw;
+        
+    }
+
+    .image1 .boxes{
+        margin-top: 4vw;
+        margin-left: 3vw;
+        float: left;
+        width: 20vw;
+    }
+
+    .image1 .boxman{
+        margin-right: 3vw;
+        float: right;
+        width: 20vw;
+    }
+
+    
+    .description1{
+        position:absolute;
+        margin-top: 8%;
+        margin-left: 33%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .description1 img{
+        height: 6vw;
+        margin-left: -5vw;
+        margin-top: -1vw;
+        color:#f5f5f5;
+        text-shadow: rgb(72, 72, 72) 0.3vw 0.3vw; 
+    }
+
+    .description1 button{
+        font-size: 3vw;
+        color:white;
+        text-shadow: rgb(72, 72, 72) 0.3vw 0.3vw; 
+        box-shadow: rgb(72, 72, 72) 0.3vw 0.3vw; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10%;
+        margin-top: 10%;
+        border: none;
+        border-radius: 3%/10%;
+        transition: 0.4s;
+        padding: 4%;
+        background-color: #1eb8d1;
+    }
+
+    .description1 button:hover{
+        background-color: #098295;
+        color: #ffffff;
+    }
+
+    .description1 button:active{
+        font-size: 2.8vw;
+    }
+
+    .image1, img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+    
+
+
+    #container2 {
+        max-width: 100%;
+        margin-top: -10%;
+        margin-bottom: -20%;
+        padding-top: 15%;
+        display: flex;
+        align-items: center;
+        color:black;
+
+    }
+
+    .image2 {
+        flex: 1;
+        order: 2;
+    }
+
+    .description2 {
+        flex: 1;
+        order: 1;
+        padding: 10px;
+        margin-top: -5vw;
+        font-size: 2vw;
+    }
+
+    .image2 img{
+        max-width: 100%;
+        max-height: 90%;
+        height: 28vw;
+        display: block;
+        box-shadow: #1f1f1f 1vw 1vw;
+        
+    }
+
+
+    #container3 {
+        max-width: 100%;
+        margin-top: 28%;
+        margin-bottom: 40%;
+        height: 20vw;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        
+        color:rgb(255, 255, 255);
+        background-color: black;
+        padding: 10%;
+    }
+
+    .image3 {
+        flex: 1;
+        order: 1;
+    }
+
+    .description3 {
+        flex: 2;
+        order: 2;
+        padding: 20px;
+        margin-top: -5vw;
+        font-size: 2vw;
+    }
+    .description3 h2{
+        text-align: center;
+    }
+
+
+
+    #container4 {
+        max-width: 100%;
+        margin-top: -27%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        color:rgb(0, 0, 0);
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+
+    .image4 {
+        flex: 1;
+        order: 1;
+    }
+
+    .description4 {
+        flex: 2;
+        order: 2;
+        padding: 10px;
+        margin-top: -5vw;
+        font-size: 2vw;
+    }
+    .description4 h2{
+        text-align: center;
+    }
+
+    
+    #footer{
+        max-width: 100%;
+        margin-top: 8%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        color:rgb(255, 255, 255); 
+        background-color: black;
+        padding-left: 5%;
+        
+    }
+
+    #footer img{
+        height: 4vw;
+        padding: 1vw;
+    }
+
+    #footer p{
+        margin-left: 65%;
+        font-size: 1.3vw;
+        padding-top: 2vw;
+    }
+
+
+
+
+}
+
+@media (max-device-width: 1000px) 
+{
+
+    body{
+        background-color: #f5f5f5;
+        font-family: Bahnschrift condensed;
+        color: black;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    
+
+    #header{
+        background-color: rgb(17, 17, 17);
+        width: 100%;
+        height: 200vw;
+        margin-top:-20vw;
+        border-bottom: rgb(240, 238, 238) 1px solid;
+        clear:both;
+        z-index: 101;
+        background-image: url("boxman3.jpg");
+        background-size: 73vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 85vw;
+        background-position-x: 30vw;
+    }
+
+
+
+    #logo{
+        margin-top: 4vw;
+
+    }
+    #logo img{
+        margin-top: 4vw;
+        width: 100vw;
+        margin-left: -10vw;
+
+    }
+
+
+    .menu{
+        width:100%;
+        height:10%;
+        margin-right: 17vw;
+    }
+    
+    .menu, ul li {
+        position: static;
+        list-style: none;
+        margin-top: 20%;
+        color: #ffffff;
+        font-family: arial black;
+        font-size: 9vw;
+        text-shadow: 1.5vw 1.5vw rgba(57, 57, 57, 0.9);
+
+        
+        
+    }
+
+    .menu a{
+        text-decoration: none;
+    }
+    
+
+
+    .menu li:hover{
+        color: rgb(178, 178, 178);
+        
+    }
+
+
+
+
+   #container1{
+        width: 0.01vw;
+        font-size: 0.01vw;
+        ;
+   }
+
+   .image1 .boxman{
+    width: 100vw;
+    opacity: 1;
+    z-index: 102;
+   }
+   
+
+
+   .image1{
+        opacity: 0;
+        position: fixed;
+   }
+
+   #button{
+        opacity: 0;
+        position: fixed;
+   }
+
+
+   .name{
+        width: 90vw;
+        z-index: 103;
+        margin-top: -170vw;
+        margin-left: 5vw;
+        position: absolute;
+   }
+
+
+   #container2{
+        margin-top: 20vw;
+        font-size: 5vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+   }
+
+
+
+   .image2 img{
+    width: 95vw;
+    padding-right: -8vw;
+    position: sticky;
+
+   }
+
+   
+   #container3{
+    margin-top: 20vw;
+    font-size: 5vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: rgb(17, 17, 17);
+    color: white;
+   }
+
+   
+   #container4{
+    margin-top: 20vw;
+    font-size: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 15vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+   }
+
+
+   #footer{
+    background-color: rgb(17, 17, 17) ;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+   }
+
+
+   #footer img{
+    width: 60vw;
+    padding: 1vw;
+    padding-left: 20vw;
+    }
+
+    #footer p{
+        position: fixed;
+        opacity: 0;
+    }
+
+}
