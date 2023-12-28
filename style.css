@@ -19,7 +19,6 @@ html {
         width: 100%;
         margin: 0 auto;
         padding: 0;
-        /* https://www.svgbackgrounds.com/ */
     }
     
     #header{
@@ -288,7 +287,7 @@ html {
 
     body{
         background-color: #f5f5f5;
-        font-family: Bahnschrift;
+        font-family: Arial;
         color: black;
         background-attachment: fixed;
         background-size: cover;
@@ -342,7 +341,7 @@ html {
         list-style: none;
         margin-top: 20%;
         color: #ffffff;
-        font-family: Montserrat;
+        font-family: Arial Black;
         font-size: 9vw;
         text-shadow: 1.5vw 1.5vw rgba(57, 57, 57, 0.9);
 
