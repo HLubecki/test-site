@@ -87,7 +87,7 @@ html {
         z-index: 100; 
     }
 
-    #container1 {
+    #ak_logistic {
         max-width: 100%;
         margin: 0 auto;
         height: 30vw;
@@ -160,7 +160,7 @@ html {
     
 
 
-    #container2 {
+    #o_nas {
         max-width: 100%;
         margin-top: -10%;
         margin-bottom: -20%;
@@ -194,7 +194,7 @@ html {
     }
 
 
-    #container3 {
+    #oferta {
         max-width: 100%;
         margin-top: 28%;
         margin-bottom: 40%;
@@ -226,7 +226,7 @@ html {
 
 
 
-    #container4 {
+    #kontakt {
         max-width: 100%;
         margin-top: -27%;
         margin-left: 0%;
@@ -364,7 +364,7 @@ html {
 
 
 
-   #container1{
+    #ak_logistic{
         width: 0.01vw;
         font-size: 0.01vw;
         ;
@@ -398,7 +398,7 @@ html {
    }
 
 
-   #container2{
+   #o_nas{
         margin-top: 20vw;
         font-size: 5vw;
         padding-left: 3vw;
@@ -415,7 +415,7 @@ html {
    }
 
    
-   #container3{
+   #oferta{
     margin-top: 20vw;
     font-size: 5vw;
     padding-top: 10vw;
@@ -427,7 +427,7 @@ html {
    }
 
    
-   #container4{
+   #kontakt{
     margin-top: 20vw;
     font-size: 5vw;
     padding-top: 2vw;
