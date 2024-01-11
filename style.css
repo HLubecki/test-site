@@ -19,6 +19,7 @@ html {
         width: 100%;
         margin: 0 auto;
         padding: 0;
+        /* https://www.svgbackgrounds.com/ */
     }
     
     #header{
@@ -164,6 +165,7 @@ html {
         margin-top: -10%;
         margin-bottom: -20%;
         padding-top: 15%;
+
         display: flex;
         align-items: center;
         color:black;
@@ -178,7 +180,8 @@ html {
     .description2 {
         flex: 1;
         order: 1;
-        padding: 10px;
+        margin-left: -25%;
+        margin-right: -55%;
         margin-top: -5vw;
         font-size: 2vw;
     }
@@ -187,6 +190,7 @@ html {
         max-width: 100%;
         max-height: 90%;
         height: 28vw;
+        margin-left: 60%;
         display: block;
         box-shadow: #1f1f1f 1vw 1vw;
         
@@ -201,7 +205,6 @@ html {
         margin-left: 0%;
         display: flex;
         align-items: center;
-        
         color:rgb(255, 255, 255);
         background-color: black;
         padding: 10%;
@@ -237,26 +240,39 @@ html {
         
     }
 
-    .image4 {
-        flex: 1;
-        order: 1;
-    }
 
     .description4 {
         flex: 2;
-        order: 2;
         padding: 10px;
         margin-top: -5vw;
         font-size: 2vw;
     }
     .description4 h2{
         text-align: center;
+        margin-top: -4%;
+        padding-bottom: 5%;
+    }
+
+    .adr-pol{
+        margin-top: 18%;
+    }
+
+    .adr-de{
+        margin-left: 80%;
+        margin-top: -10%;
+
+    }
+
+    .nr{
+        margin-left: 35%;
+        font-size: 2.4vw;
+        margin-top: -27%;
     }
 
     
     #footer{
         max-width: 100%;
-        margin-top: 8%;
+        margin-top: 18%;
         margin-left: 0%;
         display: flex;
         align-items: center;
@@ -287,7 +303,7 @@ html {
 
     body{
         background-color: #f5f5f5;
-        font-family: Arial;
+        font-family: Bahnschrift;
         color: black;
         background-attachment: fixed;
         background-size: cover;
@@ -341,7 +357,7 @@ html {
         list-style: none;
         margin-top: 20%;
         color: #ffffff;
-        font-family: Arial Black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 9vw;
         text-shadow: 1.5vw 1.5vw rgba(57, 57, 57, 0.9);
 
@@ -427,7 +443,7 @@ html {
 
    
    #kontakt{
-    margin-top: 20vw;
+    margin-top: 10vw;
     font-size: 5vw;
     padding-top: 2vw;
     padding-bottom: 15vw;
